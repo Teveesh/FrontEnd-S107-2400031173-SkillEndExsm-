@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+}
+
+header {
+  background-color: #8B0000;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.content, .announcements {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.announcements ul {
+  margin: 10px 0 0 20px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
